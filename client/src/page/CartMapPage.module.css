@@ -1,0 +1,17 @@
+.boxForm {
+  background-color: white;
+  color: black;
+  width: 500px;
+  height: 35vh;
+  z-index: 1;
+  position: absolute;
+  top: 50vh;
+  left: 32vw;
+  margin: 12px;
+  padding: 20px;
+  border-radius: 4px;
+}
+.title {
+  font-weight: 800;
+  font-family: 18px;
+}

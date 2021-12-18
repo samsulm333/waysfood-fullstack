@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@1,500&display=swap");
+nav {
+  display: flex;
+  height: 91px;
+  justify-content: space-between;
+  background-color: #ffc700;
+}
+.logoStyle {
+  display: flex;
+  margin-left: 65px;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: black;
+}
+.logoStyle:hover {
+  color: black;
+}
+.logoText {
+  font-family: "Barlow Condensed", sans-serif;
+  font-style: italic;
+  font-weight: 500;
+  font-size: 28px;
+}
+.img {
+  margin-left: 10px;
+  height: 37px;
+  width: 38.75px;
+  margin-left: 5px;
+}
+.navButton {
+  display: flex;
+  margin-right: 65px;
+  justify-content: center;
+  align-items: center;
+}
+.badgeCart {
+  padding: 4px 6px;
+}

@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap");
+
+.button {
+  width: 100px;
+  height: 30px;
+  margin-left: 5px;
+  background-color: #433434 !important;
+  color: white;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  padding-top: 2px;
+}
+
+.loginModal {
+  position: absolute;
+  top: 15%;
+  left: 35vw;
+  justify-content: center;
+  align-content: center;
+  width: 416px;
+  height: 430px;
+  border-radius: 10px;
+  background-color: #ffffff;
+  overflow: hidden;
+  font-family: "Montserrat", sans-serif;
+}
+.formModal {
+  width: 416px;
+  height: 420px;
+}
+
+.modal-dialog {
+  margin: 0px;
+}
+.input {
+  width: 350px;
+  height: 50px;
+  margin: 20px 33px 0px 32px !important;
+  background-color: rgba(210, 210, 210, 0.25);
+}
+.input-button {
+  width: 350px;
+  height: 50px;
+  margin: 20px 33px 20px 32px !important;
+  background-color: #433434 !important;
+  color: white;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  padding-top: 2px;
+  font-size: 18px;
+  font-weight: 700;
+}
+.modalHeader {
+  margin: 41px 33px 10px 32px;
+
+  font-size: 36px;
+  font-weight: 700;
+  color: #ffc700;
+}
+.formText {
+  margin-left: 13%;
+  font-size: 18px;
+  color: #b1b1b1;
+}
+.btnLink {
+  padding: 0px 0px 1px 5px !important;
+  text-decoration: none;
+  font-size: 18px;
+  border: 0px;
+  font-weight: 600;
+  color: #b1b1b1;
+}
+.btnLink:hover {
+  color: #ffc700;
+}
+
+/* ------------------Modal Register------------- */
+.registerModal {
+  position: absolute;
+  top: 5%;
+  left: 35vw;
+  justify-content: center;
+  align-content: center;
+  width: 416px;
+  height: 600px;
+  border-radius: 10px;
+  background-color: #ffffff;
+
+  font-family: "Montserrat", sans-serif;
+}
+.registerModal::-webkit-scrollbar {
+  width: 0px;
+}
+.registerForm {
+  width: 416px;
+  height: 600px;
+}
+.formTextRegister {
+  margin-left: 11%;
+  margin-bottom: 20px;
+  font-size: 18px;
+  color: #b1b1b1;
+}
+
+/* notification */
+.notif {
+  width: 350px;
+  height: 30px;
+  margin: 20px 33px 0px 32px !important;
+  padding: 3px 5px 2px 5px !important;
+  text-align: left;
+  align-items: center;
+  font-weight: 500;
+}

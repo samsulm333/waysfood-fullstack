@@ -1,0 +1,27 @@
+table {
+  width: 100%;
+}
+
+table,
+tr,
+th,
+td {
+  border: solid 1px #828282;
+  padding-left: 8px;
+  padding: 10px;
+}
+th {
+  background-color: #d6d6d6;
+}
+
+th.action,
+td.action {
+  text-align: center;
+}
+button {
+  margin: 5px;
+  border: none;
+  border-radius: 5px;
+  width: 40%;
+  font-weight: 600;
+}

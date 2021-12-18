@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@500;600;700;800;900&family=Montserrat:wght@300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap");
+div .col-sm-8 {
+  padding-left: 0px !important;
+  box-sizing: border-box;
+}
+.btn {
+  color: white;
+  background-color: #433434;
+  border: none;
+  outline: none;
+  font-weight: 600;
+}
+.btn:hover {
+  background-color: #e2ad00;
+}
+
+.fntRed {
+  color: Red;
+}
+
+.fntAbhaya {
+  font-family: "Abhaya Libre";
+  font-weight: 800;
+}
+.fntMontserrat {
+  font-family: "Montserrat", sans-serif;
+}

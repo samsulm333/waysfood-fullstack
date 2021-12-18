@@ -1,0 +1,110 @@
+.mainContent {
+  background-color: #e5e5e5;
+  background-size: cover;
+  /* height: 110%; */
+  /* padding-bottom: 20vh; */
+}
+
+.cartWrapper {
+  padding: 20px 80px;
+  height: 120vh;
+}
+
+.formInput {
+  padding: 0px !important;
+}
+.cartTitle {
+  padding: 0px;
+}
+
+.orderImage {
+  width: 140px !important;
+  height: 96px !important;
+  margin-right: 20px;
+}
+.imgCart {
+  width: 140px !important;
+  height: 96px !important;
+  object-fit: cover;
+  border-radius: 10px;
+}
+.cartOrder {
+  border-top: 1px solid black;
+}
+.orderValue {
+  text-align: right;
+}
+.subtotal {
+  height: 96px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+}
+.subtotalValue {
+  text-align: right;
+}
+
+.btnOrder {
+  margin: 60px 0px 0px 73px !important;
+}
+
+.boxForm {
+  background-color: white;
+  color: black;
+  width: 400px;
+  height: 53vh;
+  z-index: 1;
+  position: absolute;
+  top: 11vh;
+  left: 63.5vw;
+  margin: 12px;
+  padding: 20px;
+  border-radius: 4px;
+}
+.title {
+  font-weight: 800;
+  font-family: 18px;
+}
+.orderWrapper {
+  height: 113px;
+}
+.itemQty {
+  width: 30px;
+  text-align: center;
+  background-color: khaki;
+  border-radius: 5px;
+  font-weight: 600;
+}
+
+.buttonCartWrapper {
+  display: flex;
+  align-items: center;
+}
+.buttonCartPlus {
+  width: 25px;
+  font-size: 25px;
+  border-radius: 5px;
+  background-color: inherit;
+  padding-bottom: 5px;
+  cursor: pointer;
+}
+
+.buttonCartMinus {
+  width: 25px;
+  font-size: 25px;
+  border-radius: 5px;
+  background-color: inherit;
+  padding-bottom: 5px;
+  cursor: pointer;
+}
+.buttonTrash {
+  background-color: inherit;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
+.cartEmpty {
+  padding-top: 50px;
+  text-align: center;
+  font-weight: 600;
+}

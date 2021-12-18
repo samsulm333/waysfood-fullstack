@@ -1,0 +1,12 @@
+.dropdown-toggle::after {
+  display: none;
+}
+.dropdown-item:active {
+  background-color: #ffc700;
+}
+.thumbnail-image {
+  width: 50px;
+  height: 50px;
+  border: 2px solid #433434;
+  object-fit: cover;
+}

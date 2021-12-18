@@ -1,0 +1,13 @@
+.boxForm {
+  background-color: white;
+  color: black;
+  width: 400px;
+  height: 40vh;
+  z-index: 1;
+  position: absolute;
+  top: 11vh;
+  left: 63.5vw;
+  margin: 12px;
+  padding: 20px;
+  border-radius: 4px;
+}

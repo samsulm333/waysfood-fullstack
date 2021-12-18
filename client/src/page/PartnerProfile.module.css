@@ -1,0 +1,76 @@
+.imageWrapper {
+  flex: 30%;
+  padding-right: 0px;
+}
+.profileText {
+  flex: 60%;
+}
+.btn {
+  width: 180px;
+}
+.image {
+  width: 180px;
+  height: 222px;
+  object-fit: cover;
+}
+.profileText {
+  padding-left: 0px;
+}
+.mb5 {
+  margin-bottom: 5px;
+}
+.fntBrown {
+  color: #974a4a;
+  font-weight: 600;
+}
+
+.historyOrder {
+  display: flex;
+  justify-content: space-between;
+  background: whitesmoke;
+  padding: 20px;
+  height: 155px;
+  border-radius: 5px;
+  box-shadow: 1px 1px rgb(92, 92, 92);
+  margin-bottom: 10px;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@1,500&display=swap");
+
+.logoStyle {
+  display: flex;
+  margin-left: 65px;
+  justify-content: center;
+  align-items: center;
+}
+.logoText {
+  font-family: "Barlow Condensed", sans-serif;
+  font-style: italic;
+  font-weight: 500;
+  font-size: 30px;
+}
+.img {
+  margin-left: 10px;
+  height: 37px;
+  width: 38.75px;
+  margin-left: 5px;
+}
+.doneMark {
+  color: #00ff47;
+  margin-top: 15px;
+  margin-left: 65px;
+  position: absolute;
+  width: 150px;
+  height: 24px;
+  text-align: center;
+  background-color: rgb(207, 255, 131);
+
+  border-radius: 2px;
+}
+.doneText {
+  font-weight: 700;
+}
+.link {
+  text-decoration: none !important;
+  color: black;
+}

@@ -1,0 +1,16 @@
+.containerOutside {
+  background-color: white;
+  padding: 10px;
+  border-radius: 5px;
+  position: absolute;
+  height: 80vh;
+  width: 90vw;
+  top: 10vh;
+  left: 5vw;
+}
+.mapContainer {
+  height: 100%;
+  width: 100%;
+  padding: 20px;
+  position: relative;
+}

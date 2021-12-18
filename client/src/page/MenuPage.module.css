@@ -1,0 +1,34 @@
+.mainContent {
+  height: 120vh;
+}
+.cardTitle {
+  height: 45px;
+  margin-bottom: 10px;
+}
+
+.cardBody {
+  padding: 9px !important;
+}
+.cardButton {
+  background-color: #ffc700 !important;
+  color: #433434 !important;
+  font-size: 14px !important;
+  font-weight: 700 !important;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+}
+.card {
+  width: 23% !important;
+  border-radius: 5px;
+}
+.price {
+  color: red;
+  font-size: 14px;
+}
+.menuImage {
+  width: 100%;
+  height: 23vh;
+  object-fit: cover;
+  border-radius: 5px;
+}

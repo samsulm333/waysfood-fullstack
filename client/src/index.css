@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@500;600;700;800;900&family=Montserrat:wght@300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap");
+body {
+  margin: 0px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  height: max-content;
+  background-color: #e5e5e5;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.link {
+  text-decoration: none;
+  color: black;
+}
+.link:hover {
+  color: black;
+}
+
+.mainContent {
+  background-color: #e5e5e5;
+  background-size: cover;
+  height: 120vh;
+  padding-bottom: 20vh;
+}
+.userProfile {
+  overflow: hidden;
+}
+
+div .col-sm-8 {
+  padding-left: 0px !important;
+  box-sizing: border-box;
+}
+.btn {
+  color: white;
+  background-color: #433434;
+  border: none;
+  outline: none;
+  font-weight: 600;
+}
+.btn:hover {
+  background-color: #e2ad00;
+}
+
+.fntRed {
+  color: Red;
+}
+
+.fntAbhaya {
+  font-family: "Abhaya Libre";
+  font-weight: 800;
+}
+.fntMontserrat {
+  font-family: "Montserrat", sans-serif;
+}

@@ -1,0 +1,48 @@
+.input {
+  border: 1px solid #433434;
+  background-color: rgba(255, 255, 255, 0.25);
+  color: #000000 !important;
+}
+.inputImage::-webkit-file-upload-button {
+  visibility: hidden;
+  padding: 0px !important;
+}
+
+.inputImage::before {
+  border: 1px solid #433434;
+  background-color: rgba(196, 196, 196, 0.25);
+  width: 100%;
+  height: 100%;
+  padding: 5px 0px 0px 10px;
+  content: "Attach Image";
+  display: inline-block;
+  user-select: none;
+  white-space: nowrap;
+  cursor: pointer;
+  background-image: url(../assets/thumbnail.png);
+  background-size: 15px;
+  background-position: 95% 5px;
+  background-repeat: no-repeat;
+  border-radius: 3px;
+}
+
+.form-control:active {
+  border: 2px solid #ffc700 !important;
+  border-color: #ffc700 !important;
+  outline: none !important;
+}
+.attachImage {
+  padding: 0px;
+}
+.imgPreview {
+  width: 150px;
+  height: 100px;
+  margin-bottom: 20px;
+  margin-right: 4.5vw;
+  border: 1.5px solid black;
+  border-radius: 5px;
+  padding: 5px 5px;
+  background-color: rgba(255, 255, 255, 0.25);
+}
+.divPrev {
+}

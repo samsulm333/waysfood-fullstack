@@ -1,0 +1,22 @@
+.input {
+    border: 1px solid #433434;
+    background-color: #d6d6d6;
+   
+  }
+  
+  .form-control:focus {
+    border: 2px solid #ffc700;
+    border-color: #ffc700 !important;
+    outline: inset;
+  
+    
+  }
+  .attachImage{
+    background-image: url(../assets/thumbnail.png);
+    background-size: 15px;
+    background-position: 95% 5px;
+    background-repeat: no-repeat;
+    
+  }
+  
+  
