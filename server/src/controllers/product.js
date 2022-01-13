@@ -28,7 +28,7 @@ exports.getProducts = async (req, res) => {
         id: item.id,
         title: item.title,
         price: item.price,
-        image: process.env.IMAGE_PATH + item.image,
+        image: `http://localhost:5002/uploads/${item.image}`,
         user: item.user,
       };
     });
@@ -81,7 +81,7 @@ exports.getProductByUser = async (req, res) => {
         id: item.id,
         title: item.title,
         price: item.price,
-        image: process.env.IMAGE_PATH + item.image,
+        image: `http://localhost:5002/uploads/${item.image}`,
       };
     });
 

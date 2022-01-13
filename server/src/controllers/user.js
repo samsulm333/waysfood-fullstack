@@ -20,7 +20,7 @@ exports.getUsers = async (req, res) => {
         email: item.email,
         phone: item.phone,
         location: item.location,
-        image: process.env.IMAGE_PATH + item.image,
+        image: `http://localhost:5002/uploads/${item.image}`,
         role: item.role,
       };
     });

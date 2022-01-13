@@ -128,9 +128,12 @@ const CartPage = () => {
   // insert order to server
   const handleOrderButton = async (e) => {
     e.preventDefault();
+    const token = localStorage.getItem("token");
+
     const config = {
       headers: {
         "Content-type": "application/json",
+        Authorization: `token ${token}`,
       },
     };
     // set format post request

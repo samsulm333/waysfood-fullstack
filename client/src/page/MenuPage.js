@@ -51,7 +51,15 @@ const MenuPage = () => {
   };
 
   const getMenu = async () => {
-    const response = await API.get(`products/${id}`);
+    const token = localStorage.getItem("token");
+    const config = {
+      headers: {
+        "Content-type": "multipart/form-data",
+        Authorization: `token ${token}`,
+      },
+    };
+
+    const response = await API.get(`products/${id}`, config);
     setPartner(response.data.data.userPartner);
     setMenus(response.data.data.products);
   };

@@ -19,6 +19,7 @@ const EditProfile = ({ hide }) => {
     email: "",
     phone: "",
     location: "",
+    image: "",
   });
 
   console.log(form);
@@ -27,7 +28,13 @@ const EditProfile = ({ hide }) => {
 
   let navigate = useNavigate();
 
-  const [user, setUser] = useState({});
+  const [user, setUser] = useState({
+    fullname: "",
+    email: "",
+    phone: "",
+    location: "",
+    image: "",
+  });
   const { id } = useParams();
 
   const getUserById = async () => {
@@ -62,12 +69,14 @@ const EditProfile = ({ hide }) => {
       formData.set("email", user.email);
       formData.set("phone", user.phone);
       formData.set("location", user.location);
-      // formData.set("image", form.image, form.image);
+      formData.set("image", user.image[0], user.image[0].name);
 
       const response = await API.patch(`user/${id}`, formData, config);
 
-      console.log(formData);
-      navigate(`/profile-user/${id}`);
+      console.log(formData.get("image"));
+      if (response.status === 200) {
+        navigate(`/profile-user/${id}`);
+      }
     } catch (error) {
       console.log(error);
     }
@@ -110,6 +119,7 @@ const EditProfile = ({ hide }) => {
                   placeholder="Attach Image"
                   className={`${styles.attachImage} form-control ${styles.input} `}
                   name="image"
+                  onChange={handleChange}
                 />
               </div>
             </div>
